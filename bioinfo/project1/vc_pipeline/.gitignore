@@ -1,0 +1,38 @@
+# Ignore raw sequencing data
+*.fastq
+*.fastq.gz
+
+# Ignore large reference files
+reference/
+*.fa
+*.fna
+*.fasta
+*.fai
+*.dict
+*.amb
+*.ann
+*.bwt
+*.pac
+*.sa
+
+# Ignore BAM, SAM and index files
+*.bam
+*.bai
+*.sam
+*.cram
+*.crai
+
+# Ignore VCF result files
+*.vcf
+*.vcf.gz
+*.tbi
+
+# Ignore result folders
+results/
+output/
+logs/
+
+# Ignore temporary files
+*.tmp
+*.log
+
